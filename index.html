@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-59R6JQLH');</script>
+    <!-- End Google Tag Manager -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap"
+        rel="stylesheet">
+
+    <title>InvoiTrade</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59R6JQLH"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <header>
+        <nav class="nav-container">
+            <div class="logo-container">
+                <img src="images/logoInvoitrade.png" alt="Logo InvoiTrade" class="logo">
+            </div>
+            <button class = "hamburger-btn"><img src="images/menu-hamburguesa.svg" alt="Icono hamburguesa"></button>
+                <div class = "contenedor-hamburger">
+                    <div class = "contenedor-menu-movil">
+                        <ul class="menu-movil">
+                            <li class="desplegable-movil"><a href="#">Nosotros</a></li>
+                            <ul class="submenu-nosotros">
+                                <li><a class="" href="#">Acerca</a></li>
+                                <li><a class="" href="#">Cómo funciona</a></li>
+                                <li><a class="" href="#">Prensa</a></li>
+                                <li><a class="" href="#">Preguntas (FAQ)</a></li>
+                            </ul>
+                            <div class="linea-horizontal-divisoria"></div>
+                            <li><a href="#">Blog</a></li>
+                            <div class="linea-horizontal-divisoria"></div>
+                            <li><a href="#">Contacto</a></li>
+                            <div class="linea-horizontal-divisoria"></div>
+                        </ul>
+                        <div class="banderas-movil">
+                            <div class="linea-horizontal-divisoria"></div>
+                        </div>
+                    </div>
+                    <div class = "contenedor-botones">
+                        <button class="btn-header btn-registro">Registrate</button>
+                        <button class="btn-header btn-login"> <svg xmlns="http://www.w3.org/2000/svg" height="16px"
+                            viewBox="0 -960 960 960" width="16px" fill="#0E5471">
+                            <path
+                                d="M480-480q-60 0-102-42t-42-102q0-60 42-102t102-42q60 0 102 42t42 102q0 60-42 102t-102 42ZM192-192v-96q0-23 12.5-43.5T239-366q55-32 116.29-49 61.29-17 124.5-17t124.71 17Q666-398 721-366q22 13 34.5 34t12.5 44v96H192Zm72-72h432v-24q0-5.18-3.03-9.41-3.02-4.24-7.97-6.59-46-28-98-42t-107-14q-55 0-107 14t-98 42q-5 4-8 7.72-3 3.73-3 8.28v24Zm216.21-288Q510-552 531-573.21t21-51Q552-654 530.79-675t-51-21Q450-696 429-674.79t-21 51Q408-594 429.21-573t51 21Zm-.21-72Zm0 360Z" />
+                        </svg>
+                        </svg>Ingresar</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <ul class="menu">
+                <li class="menu-item item-desplegable">
+                    <a href="#">Nosotros</a>
+                    <ul class="submenu">
+                        <li><a class="item-solitario" href="#">Acerca</a></li>
+                        <li><a class="item-solitario" href="#">Cómo funciona</a></li>
+                        <li><a class="item-solitario" href="#">Prensa</a></li>
+                        <li><a class="item-solitario" href="#">Preguntas (FAQ)</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item"><a class="item-solitario" href="#">Blog</a></li>
+                <li class="menu-item"><a class="item-solitario" href="#">Contacto</a></li>
+            </ul>
+            <div class="registro-container">
+                <ul class="menu-banderas item-desplegable bandera-item">
+                    <li><a href="#"><img class="bandera" src="images/banderaArgentina.png" alt="Bandera Argentina"></a>
+                    </li>
+                    <ul class="submenu-banderas">
+                        <li><a href="#"><img class="bandera" src="images/banderaUsa.webp"
+                                    alt="Bandera Estados Unidos"></a></li>
+                        <li><a href="#"><img class="bandera" src="images/mexico.webp" alt="Bandera Mexico"></a>
+                        </li>
+                    </ul>
+                </ul>
+                <div class="barra-vertical"></div>
+                <button class="btn-header btn-registro">Registrate</button>
+                <button class="btn-header btn-login"> <svg xmlns="http://www.w3.org/2000/svg" height="16px"
+                        viewBox="0 -960 960 960" width="16px" fill="#0E5471">
+                        <path
+                            d="M480-480q-60 0-102-42t-42-102q0-60 42-102t102-42q60 0 102 42t42 102q0 60-42 102t-102 42ZM192-192v-96q0-23 12.5-43.5T239-366q55-32 116.29-49 61.29-17 124.5-17t124.71 17Q666-398 721-366q22 13 34.5 34t12.5 44v96H192Zm72-72h432v-24q0-5.18-3.03-9.41-3.02-4.24-7.97-6.59-46-28-98-42t-107-14q-55 0-107 14t-98 42q-5 4-8 7.72-3 3.73-3 8.28v24Zm216.21-288Q510-552 531-573.21t21-51Q552-654 530.79-675t-51-21Q450-696 429-674.79t-21 51Q408-594 429.21-573t51 21Zm-.21-72Zm0 360Z" />
+                    </svg>
+                    </svg>Ingresar</button>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <div class="contenedor-contenido">
+        <section class="hero-section">
+            <div class="contenedor-texto">
+                <h2><span class="verde">Descontá</span> tus Facturas de Crédito Electrónicas</h2>
+                <p class="hero-p1">Sin linea de crédito, ni avales personales. 100% online</p>
+                <p class="hero-p2">Crea tu cuenta gratis y sin costo de mantenimiento.</p>
+                <button class="btn">Crear Cuenta</button>
+            </div>
+
+            <div class="contenedor-plataforma">
+                <div class="imagen-plataforma">
+                    <img src="images/plataforma.svg" alt="Plataforma Invoitrade">
+                </div>
+                <div class="box-efectivo">
+                    <div class="text-up">Efectivo en</div>
+                    <div class="text-down">90 seg</div>
+                </div>
+            </div>
+            <div class="linea-horizontal"></div>
+        </section>
+        <section class="s1">
+            <h1>InvoiTrade</h1>
+            <h2>La solución rápida, segura y transparente.</h2>
+            <div class="s1-parrafo">
+                <p>InvoiTrade es la <strong>primera plataforma</strong> de negociación de <strong>Facturas de Crédito
+                        Electrónicas</strong>, que opera conforme al Art. 13 de la Ley 27.440, <strong>autorizada por la
+                        Caja de Valores</strong> S.A.</p>
+                <p class="p-s1">Nuestro <strong>objetivo</strong> es que las <strong>PyMes</strong> proveedoras a
+                    grandes empresas puedan
+                    contar con una nueva y mejor herramienta de <strong>negociación de facturas y anticipar el
+                        cobro</strong> de las mismas de forma <strong>rápida y segura.</strong></p>
+            </div>
+    </div>
+    <div class="fondo-accionistas">
+        <div class="contenedor-contenido">
+            <h3 class="accionistas">Accionistas</h3>
+            <div class="contenedor-accionistas">
+                <img src="images/quona.png" alt="Logo Quona">
+                <div class="barra-vertical"></div>
+                <img src="images/IFC.png" alt="Logo IFC">
+                <div class="barra-vertical"></div>
+                <img src="images/matba.png" alt="Logo Matba Rofex">
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="s2">
+        <h2>Proceso de la Factura de Crédito Electrónica</h2>
+        <div class="contenedor-proceso">
+            <img src="images/proceso.svg" alt="">
+        </div>
+        <div class="contenedor-empresas">
+            <h3 class="empresas-receptoras">Empresas Receptoras de FCE</h3>
+            <div class="slider">
+                <div class="slides">
+                    <div class="slide"><img src="images/marcas/coca-cola-2021.svg" alt="Marca 1"></div>
+                    <div class="slide"><img src="images/marcas/ypf.svg" alt="Marca 2"></div>
+                    <div class="slide"><img class="cover" src="images/marcas/schlumberger.svg" alt="Marca 3"></div>
+                    <div class="slide"><img src="images/marcas/halliburton-2.svg" alt="Marca 3"></div>
+                    <div class="slide"><img src="images/marcas/acerbrag.svg" alt="Marca 3"></div>
+                    <div class="slide"><img src="images/marcas/baker-hughes.svg" alt="Marca 3"></div>
+                    <div class="slide"><img src="images/marcas/basf-logo-gs.svg" alt="Marca 3"></div>
+                    <div class="slide"><img class="cover" src="images/marcas/syngenta.svg" alt="Marca 3"></div>
+                    <div class="slide"><img src="images/marcas/pluspetrol.svg" alt="Marca 3"></div>
+                    <div class="slide"><img src="images/marcas/natura-1.svg" alt="Marca 3"></div>
+                    <div class="slide"><img class="cover" src="images/marcas/colgate.svg" alt="Marca 3"></div>
+                    <div class="slide"><img class="cover" src="images/marcas/carrefour-1.svg" alt="Marca 3"></div>
+                    <div class="slide"><img class="cover" src="images/marcas/cargill-1.svg" alt="Marca 3"></div>
+                    <div class="slide"><img src="images/marcas/saint-gobain-logo.svg" alt="Marca 3"></div>
+                    <div class="slide"><img src="images/marcas/fravega.svg" alt="Marca 3"></div>
+                    <div class="slide"><img src="images/marcas/mercadolibre.svg" alt="Marca 3"></div>
+                    <div class="slide"><img class="cover" src="images/marcas/arcor-1.svg" alt="Marca 3"></div>
+                    <div class="slide"><img class="cover" src="images/marcas/weatherford.svg" alt="Marca 3"></div>
+                    <div class="slide"><img src="images/marcas/ibm.svg" alt="Marca 3"></div>
+                    <div class="slide"><img src="images/marcas/unilever-2.svg" alt="Marca 3"></div>
+
+                    <div class="slide"><img src="images/marcas/swiss-medical.svg" alt="Marca 3"></div>
+
+                    <div class="slide"><img class="cover" src="images/marcas/aeropuertos-argentina-2000.svg"
+                            alt="Marca 3"></div>
+                    <!-- Clonamos el contenido para lograr el loop continuo -->
+                    <div class="slide"><img src="images/marcas/coca-cola-2021.svg" alt="Marca 1"></div>
+                    <div class="slide"><img src="images/marcas/ypf.svg" alt="Marca 2"></div>
+                    <div class="slide"><img src="images/marcas/schlumberger.svg" alt="Marca 3"></div>
+                    <div class="slide"><img src="images/marcas/halliburton-2.svg" alt="Marca 4"></div>
+                    <div class="slide"><img src="images/marcas/acerbrag.svg" alt="Marca 5"></div>
+                    <div class="slide"><img src="images/marcas/baker-hughes.svg" alt="Marca 6"></div>
+                    <div class="slide"><img src="images/marcas/basf-logo-gs.svg" alt="Marca 7"></div>
+                    <div class="slide"><img src="images/marcas/syngenta.svg" alt="Marca 8"></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="s3">
+        <div class="contenedor-s3">
+            <h3>Obtené liquidez, estés donde estés.</h3>
+            <div class="beneficios-grid">
+                <div class="beneficios-card">
+                    <div class="icono-card">
+                        <img src="images/wifi.svg" alt="Icono Wi-fi">
+                    </div>
+                    <div class="contenido-card">
+                        <h4>100% Digital</h4>
+                        <p>Todo a través de la plataforma</p>
+                    </div>
+                </div>
+                <div class="beneficios-card">
+                    <div class="icono-card">
+                        <img src="images/dispositivos.svg" alt="Icono Dispositivos">
+                    </div>
+                    <div class="contenido-card">
+                        <h4>Accesible desde cualquier dispositivo</h4>
+                        <p>Gestiona tus facturas </p>
+                    </div>
+                </div>
+                <div class="beneficios-card ">
+                    <div class="icono-card">
+                        <img src="images/chanchito.svg" alt="Icono Chanchito ahorro">
+                    </div>
+                    <div class="contenido-card">
+                        <h4>Sin costo de mantenimiento</h4>
+                        <p>Ni de implementación</p>
+                    </div>
+                </div>
+                <div class="beneficios-card">
+                    <div class="icono-card">
+                        <img src="images/seguridad.svg" alt="Icono Seguridad">
+                    </div>
+                    <div class="contenido-card">
+                        <h4>Seguridad</h4>
+                        <p>Con control biometrico</p>
+                    </div>
+                </div>
+                <div class="beneficios-card">
+                    <div class="icono-card">
+                        <img src="images/ofertas.svg" alt="Icono Dinero ofertas">
+                    </div>
+                    <div class="contenido-card">
+                        <h4>Mejores ofertas</h4>
+                        <p>Elegi entre varios bancos sin abrir una cuenta</p>
+                    </div>
+                </div>
+                <div class="beneficios-card">
+                    <div class="icono-card">
+                        <img src="images/documentacion.svg" alt="Icono Sin documentacion">
+                    </div>
+                    <div class="contenido-card">
+                        <h4>Sin documentación</h4>
+                        <p>Tampoco requiere linea de credito</p>
+                    </div>
+                </div>
+                <div class="beneficios-card">
+                    <div class="icono-card">
+                        <img src="images/banco.svg" alt="Icono Cuenta bancaria">
+                    </div>
+                    <div class="contenido-card">
+                        <h4>Cobro inmediato en tu cuenta bancaria</h4>
+                        <p>Obtene liquidez inmediata</p>
+                    </div>
+                </div>
+                <div class="beneficios-card">
+                    <div class="icono-card">
+                        <img src="images/tarjeta.svg" alt="Icono Sin endeudamiento">
+                    </div>
+                    <div class="contenido-card">
+                        <h4>Sin endeudamiento</h4>
+                        <p>No ocupa linea bancaria</p>
+                    </div>
+                </div>
+            </div>
+            <h4 class="frase"><span>"</span>La verdadera clave de la riqueza es el dominio de la administración
+                financiera<span>"
+                </span></h4>
+        </div>
+    </section>
+
+    <section class="s4">
+        <div class="s4-texto">
+            <h2>Sumate a las 3000 PyMes usando nuestra plataforma</h2>
+            <button class="btn">Crear Cuenta</button>
+        </div>
+        <div class="s4-ubicacion">
+            <div class="s4-map">
+                <div class="contenedor-mapa">
+                    <a href=""><img src="images/maps.png" alt="Icono Google Maps"></a>
+                </div>
+                <div class="contenedor-estrellas">
+                    <img src="images/estrellas.png" alt="5 Estrellas">
+                </div>
+            </div>
+            <p>Av. del Libertador 5930 - Piso 6</p>
+            <p>CABA, Argentina</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="grid-footer">
+            <h2><strong>Invoi</strong>Trade</h2>
+            <div class="columna-producto">
+                <h4>Producto</h4>
+                <ul>
+                    <li><a href="#">Asesoramiento</a></li>
+                    <li><a href="#">Testimonios</a></li>
+                    <li><a href="#">Preguntas</a></li>
+                </ul>
+                <div class="bloque-beneficios">
+                    <h4>Beneficios</h4>
+                    <ul>
+                        <li><a href="#">Pymes</a></li>
+                        <li><a href="#">Bancos</a></li>
+                        <li><a href="#">Grandes Empresas</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="columna-empresa">
+                <h4>Empresa</h4>
+                <ul>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Quienes somos?</a></li>
+                    <li><a href="#">Prensa</a></li>
+                </ul>
+            </div>
+            <div class="columna-redes">
+                <div class="contenedor-iconos">
+                    <div class="img-icono-contenedor">
+                        <a href=""><img class="icono" src="images/wpp.svg" alt="Icono Whatsapp"></a>
+                    </div>
+
+                    <div class="img-icono-contenedor">
+                        <a href=""><img class="icono icono-medio" src="images/linke.svg" alt="Icono Linkedin"></a>
+                    </div>
+                    <div class="img-icono-contenedor"><a href=""><img class="icono" src="images/ig.svg"
+                                alt="Icono Instagram"></a></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="cierre">
+            <div class="terminos">
+                <a href="">Legal</a>
+                <a href="">Terminos y Servicios</a>
+            </div>
+            <p class="derechos">© 2024 INVOITRADE. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
